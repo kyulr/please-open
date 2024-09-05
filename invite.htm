@@ -3,74 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special Invite</title>
-
-    <!-- Open Graph Meta Tags for Telegram Preview -->
-    <meta property="og:title" content="Special Invite for Yi Ping 小姐">
-    <meta property="og:description" content="Good Afternoon Yi Ping! Care to join me for lunch before your work starts?">
-    <meta property="og:image" content="https://i.imgur.com/ToFrgiU.jpeg">
-    <meta property="og:url" content="https://yourwebsite.com"> <!-- Replace with your hosted URL -->
-
+    <title>Date Invite</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
-            color: #333;
-            text-align: center;
+            background: linear-gradient(135deg, #f0f4f8, #e0e4e8);
             margin: 0;
             padding: 0;
+            text-align: center;
         }
         .container {
-            margin-top: 100px;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            padding: 30px;
             max-width: 500px;
             margin-left: auto;
             margin-right: auto;
         }
         h1 {
-            font-size: 2.5em;
             color: #ff4081;
+            font-size: 2em;
+            margin-bottom: 15px;
+            font-weight: bold;
         }
         p {
-            font-size: 1.2em;
-            color: #555;
+            color: #333;
+            font-size: 1.1em;
+            margin: 10px 0;
         }
         .date-time {
-            font-size: 1.5em;
+            font-size: 1.4em;
             margin: 20px 0;
+            color: #555;
+            font-weight: bold;
         }
         .yes-button {
             background-color: #ff4081;
             color: #fff;
-            padding: 10px 20px;
+            padding: 12px 24px;
             border: none;
-            border-radius: 5px;
+            border-radius: 8px;
             font-size: 1.2em;
             cursor: pointer;
             margin-top: 20px;
+            display: inline-block;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
         }
         .yes-button:hover {
             background-color: #e6397f;
         }
         img {
-            width: 300px;
-            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
             margin-bottom: 20px;
+        }
+        audio {
+            display: none;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="https://i.imgur.com/ToFrgiU.jpeg" alt="<3">
-        <h1>Good Afternoon Yi Ping 小姐! care to join me for a lil date before your work starts?</h1>
-        <p>we can have lunch before u go work</p>
+        <img src="https://i.imgur.com/ToFrgiU.jpeg" alt="Date Image">
+        <h1>Hey [Name]!</h1>
+        <p>How about joining me for a delightful lunch before your work?</p>
         <div class="date-time">
             <strong>When?</strong> September 9th, 12:30 PM @ Suntec City
         </div>
-        <button class="yes-button" onclick="alert('Yay! Cảm ơn')">Yes!</button>
+        <button class="yes-button" onclick="alert('Fantastic! Looking forward to it!')">Yes!</button>
+        <!-- Embed audio with autoplay -->
+         <!-- Embed audio with autoplay -->
+        <audio controls autoplay>
+            <source src="https://drive.google.com/uc?export=download&id=1zYM4OqVw8I3C4jpQOSJjh7OJvRz1Geb9" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
     </div>
 </body>
 </html>
